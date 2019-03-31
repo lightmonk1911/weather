@@ -1,0 +1,23 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "weather forecast app",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lightmonk1911/weather.git"
+  },
+  "keywords": [
+    "weather",
+    "api"
+  ],
+  "author": "igor babenkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lightmonk1911/weather/issues"
+  },
+  "homepage": "https://github.com/lightmonk1911/weather#readme"
+}
