@@ -1,6 +1,6 @@
-nav.nav
-  ul.nav__ul
-    li.nav__item
-      a(href="").nav__link Izhevsk
-    li.nav__item
-      a(href="").nav__link Samara
+mixin nav(cities)
+  nav.nav
+    ul.nav__ul
+      each city in cities
+        li.nav__item(class= city.selected ? 'nav__item--selected' : '')
+          a(href="").nav__link #{city.name}

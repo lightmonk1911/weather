@@ -4,4 +4,17 @@
   &__ul {
     background-color: #fff;
   }
+
+  &__item {
+    font-weight: bold;
+
+    &--selected {
+      color: red;
+    }
+  }
+
+  &__link {
+    color: inherit;
+    text-decoration: none;
+  }
 }
